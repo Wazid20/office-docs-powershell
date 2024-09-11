@@ -217,7 +217,6 @@ The Alias value can contain letters, numbers and the following characters:
 - !, #, %, \*, +, -, /, =, ?, ^, \_, and ~.
 - $, &, ', \`, {, }, and \| need to be escaped (for example ``-Alias what`'snew``) or the entire value enclosed in single quotation marks (for example, `-Alias 'what'snew'`). The & character is not supported in the Alias value for Microsoft Entra Connect synchronization.
 - Periods (.) must be surrounded by other valid characters (for example, `help.desk`).
-- Unicode characters U+00A1 to U+00FF.
 
 If you don't use the Alias parameter when you create a Microsoft 365 Group, the value of the DisplayName parameter is used for the Alias value. Spaces are removed, unsupported characters are converted to question marks (?), and numbers may be added to maintain the uniqueness of the Alias value.
 
